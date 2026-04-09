@@ -1,0 +1,16 @@
+[project]
+name = "hw-3"
+version = "0.1.0"
+description = "home work 3"
+authors = [
+    {name = "ViktorBond7",email = "141341341+ViktorBond7@users.noreply.github.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2 (>=3.1.6,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
