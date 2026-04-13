@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      # Map the local ./storage folder to /app/storage inside the container.
+      # This ensures storage/data.json is stored on the HOST, not inside the container.
+      - ./storage:/app/storage
